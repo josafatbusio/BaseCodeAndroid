@@ -1,0 +1,16 @@
+<resources>
+    <color name="startColor">#f1f1f2</color>
+    <color name="centerColor">#e7e7e8</color>
+    <color name="endColor">#cfcfcf</color>
+
+  <!--Color hover-->
+    <color name="startColorHover">#18d7e5</color>
+    <color name="centerColorHover">#16cedb</color>
+    <color name="endColorHover">#09adb9</color>
+
+    <!--ListView -->
+    <color name="listDivider">#b5b5b5</color>
+
+    <!--TextView id:title-->
+    <color name="title_color">#040404</color>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="listDividerHeight">1dp</dimen>
+
+    <dimen name="padding_list_row">5dip</dimen>
+
+    <!--LinearLayout thumbnail-->
+    <dimen name="padding_image_list_row">3dip</dimen>
+    <dimen name="margingRight_image_list_row">5dip</dimen>
+
+    <!--ImageView id:list_image-->
+    <dimen name="height_list_image">50dip</dimen>
+    <dimen name="width_list_image">50dip</dimen>
+
+
+    <!--TextView id:title-->
+    <dimen name="title_textSize">15dip</dimen>
+
+</resources>
