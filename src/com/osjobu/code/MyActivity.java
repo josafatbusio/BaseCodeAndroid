@@ -1,7 +1,6 @@
 package com.osjobu.code;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,11 +8,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
-import java.util.List;
+import com.osjobu.camara.PhotoIntentActivity;
 
 
 public class MyActivity extends Activity
@@ -62,6 +59,10 @@ public class MyActivity extends Activity
                // Toast.makeText(getApplicationContext(),"Click="+position,Toast.LENGTH_LONG).show();
                 if(position==0){
                     Intent intent = new Intent(getApplicationContext(), Grid.class);
+                    startActivity(intent);
+                }
+                if(position==1){
+                    Intent intent = new Intent(getApplicationContext(), PhotoIntentActivity.class);
                     startActivity(intent);
                 }
             }

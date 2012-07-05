@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg"
+        >
+
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/actionbar_layout"
+android:layout_width="fill_parent"
+android:layout_height="45dip"
+android:background="@drawable/gradient_bg_hover"
+android:gravity="center_vertical">
+
+<TextView
+        android:id="@+id/tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App name"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
+
+<RelativeLayout
+android:id="@+id/button_layout"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+android:layout_below="@id/actionbar_layout">
+
+<ImageButton
+        android:id="@+id/button_schedule"
+        android:src="@drawable/icon"
+        android:scaleType="fitCenter"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        />
+
+<TextView
+        android:id="@+id/text_schedule"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Rooster"
+        android:textSize="20dp"
+        android:layout_below="@id/button_schedule"
+        android:gravity="center"
+        />
+
+<ImageButton
+        android:id="@+id/button_locations"
+        android:src="@drawable/arrow"
+        android:scaleType="fitCenter"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:layout_below="@id/text_schedule"
+        />
+
+<TextView
+        android:id="@+id/text_locations"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Links"
+        android:textSize="20dp"
+        android:layout_below="@id/button_locations"
+        android:gravity="center"
+        />
+
+<ImageButton
+        android:id="@+id/button_rss"
+        android:src="@drawable/calendar"
+        android:scaleType="fitCenter"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:layout_toRightOf="@id/button_schedule"
+        android:layout_alignParentRight="true"
+        />
+
+<TextView
+        android:id="@+id/text_rss"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="RSS"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/text_schedule"
+        android:layout_below="@id/button_rss"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        />
+
+<ImageButton
+        android:id="@+id/button_settings"
+        android:src="@drawable/espn"
+        android:scaleType="fitCenter"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:layout_toRightOf="@id/text_locations"
+        android:layout_below="@id/text_schedule"
+        android:layout_alignParentRight="true"
+        />
+
+<TextView
+        android:id="@+id/text_settings"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Instellingen"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/text_locations"
+        android:layout_below="@id/button_settings"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
+
+<RelativeLayout
+android:id="@+id/twitter_layout"
+android:layout_width="wrap_content"
+android:layout_height="150dp"
+android:layout_alignParentBottom="true"
+android:layout_below="@id/button_layout">
+
+<Gallery android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:id="@+id/gallery"
+         android:layout_gravity="bottom"
+         android:layout_alignParentBottom="true">
+</Gallery>
+</RelativeLayout>
+
+        </RelativeLayout>
