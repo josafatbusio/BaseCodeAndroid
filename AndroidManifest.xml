@@ -29,6 +29,7 @@
 
         <activity android:name=".Grid"/>
         <activity android:name="com.osjobu.camara.PhotoIntentActivity"/>
+        <activity android:name="com.osjobu.utils.Rounded"/>
 
 
     </application>

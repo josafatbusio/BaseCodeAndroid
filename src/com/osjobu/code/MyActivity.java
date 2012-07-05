@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 import com.osjobu.camara.PhotoIntentActivity;
+import com.osjobu.utils.Rounded;
 
 
 public class MyActivity extends Activity
@@ -63,6 +64,10 @@ public class MyActivity extends Activity
                 }
                 if(position==1){
                     Intent intent = new Intent(getApplicationContext(), PhotoIntentActivity.class);
+                    startActivity(intent);
+                }
+                if(position==2){
+                    Intent intent = new Intent(getApplicationContext(), Rounded.class);
                     startActivity(intent);
                 }
             }
